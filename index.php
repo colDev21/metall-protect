@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="library/swiper/swiper-bundle.min.css" />
-    <link rel="stylesheet" type="text/css" href="styles/css/styles.css" />
+    <link rel="stylesheet" type="text/css" href="styles/css/styles.css?v=1.0" />
     <link rel="stylesheet" type="text/css" href="styles/css/custom.css" />
     <script src="https://api-maps.yandex.ru/2.1/?apikey=ad2a15e6-7ec7-43a9-b823-c3140a653977&lang=ru_RU" type="text/javascript">
     </script>
