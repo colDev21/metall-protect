@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Commissioner:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import "../css/normalize.css";
+@import "_variables.scss";
+@import "mixins.scss";
+@import "components/button.scss";
+@import "components/menu.scss";
+@import "parts/header.scss";
+@import "parts/masthead.scss";
+@import "parts/about.scss";
+@import "parts/services.scss";
+@import "parts/products.scss";
+@import "parts/projects.scss";
+@import "parts/docs.scss";
+@import "parts/feedback.scss";
+@import "parts/map.scss";
+@import "parts/footer.scss";
+body {
+  font-family: "Commissioner", sans-serif;
+  min-width: 320px;
+  color: $colorDark;
+  background-color: $colorLight;
+}
+b {
+  font-weight: 600;
+}

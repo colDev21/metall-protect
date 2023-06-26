@@ -1,0 +1,147 @@
+footer {
+  background-color: $colorDark;
+}
+.mp-footer {
+  @media (max-width: 767px) {
+    font-size: 14px;
+  }
+  &__container {
+    @include container;
+  }
+  &__wrapper {
+    padding: 40px;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    @media (max-width: 767px) {
+      padding: 30px 0 0;
+    }
+  }
+  &__logo-wrapper {
+    @media (max-width: 1199px) {
+      max-width: 50%;
+      flex: 0 0 50%;
+      margin-bottom: 30px;
+    }
+    @media (max-width: 767px) {
+      max-width: 100%;
+      flex: 0 0 100%;
+    }
+  }
+  &__logo {
+    height: 94px;
+    width: auto;
+    margin-right: 180px;
+    @media (max-width: 1400px) {
+      margin-right: 100px;
+    }
+    @media (max-width: 1300px) {
+      margin-right: 40px;
+    }
+    @media (max-width: 1199px) {
+      margin: 0;
+    }
+  }
+  &__menu {
+    margin-right: auto;
+    @media (max-width: 1199px) {
+      max-width: 50%;
+      flex: 0 0 50%;
+      margin-bottom: 30px;
+    }
+    @media (max-width: 767px) {
+      max-width: 100%;
+      flex: 0 0 100%;
+    }
+  }
+  &__contacts {
+  }
+}
+.mp-footer-menu {
+  columns: 2;
+  column-gap: 40px;
+  &__item {
+  }
+  &__link {
+    display: block;
+    color: $colorLight;
+    text-transform: uppercase;
+    padding: 15px 0;
+  }
+}
+
+.mp-copyright {
+  color: $colorLight;
+  @media (max-width: 767px) {
+    font-size: 14px;
+  }
+  &__container {
+    @include container;
+  }
+  &__wrapper {
+    padding: 0 40px;
+    @media (max-width: 767px) {
+      padding: 0 0 46px;
+    }
+  }
+  &__inner-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    border-top: 1px solid rgba($colorLight, 0.2);
+    padding: 18px 0;
+    @media (max-width: 767px) {
+      flex-direction: column-reverse;
+      align-items: flex-start;
+    }
+  }
+  &__link {
+  }
+}
+
+.mp-footer-links {
+  $mpFL: &;
+  max-width: 250px;
+  margin-left: 60px;
+  @media (max-width: 1300px) {
+    margin-left: 40px;
+  }
+  @media (max-width: 1199px) {
+    max-width: 50%;
+    flex: 0 0 50%;
+    margin: 0;
+  }
+  @media (max-width: 767px) {
+    max-width: 100%;
+    flex: 0 0 100%;
+    margin-bottom: 30px;
+  }
+  &__item {
+  }
+  &__link {
+    display: flex;
+    align-items: center;
+    color: $colorLight;
+    padding: 6.5px;
+    line-height: 1.3;
+  }
+  &__icon-wrapper {
+    width: 26px;
+    min-width: 26px;
+    text-align: center;
+    margin-right: 10px;
+  }
+  &__icon {
+    width: auto;
+    #{ $mpFL }_vk {
+      height: 15.4px;
+    }
+    #{ $mpFL }_ytb {
+      height: 16px;
+    }
+    #{ $mpFL }_ig {
+      height: 20px;
+    }
+  }
+}

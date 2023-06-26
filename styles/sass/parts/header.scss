@@ -1,0 +1,129 @@
+.site-header {
+  background-color: $colorDark;
+  z-index: 999;
+  position: relative;
+}
+.mp-header {
+  display: flex;
+  justify-content: space-between;
+  @include container;
+  padding-top: 29px;
+  padding-bottom: 27px;
+  font-size: 16px;
+  font-weight: 600;
+  @media (max-width: 1200px) {
+    padding-top: 19px;
+    padding-bottom: 17px;
+  }
+  @media (max-width: 991px) {
+    flex-wrap: wrap;
+  }
+  @media (max-width: 767px) {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  &__logo {
+    max-width: 22%;
+    flex: 0 0 22%;
+    @media (max-width: 1920px) {
+      max-width: unset;
+      flex: unset;
+    }
+    @media (max-width: 991px) {
+      order: 1;
+      z-index: 1;
+    }
+  }
+  &__logo-image {
+    height: 60px;
+    width: auto;
+    @media (max-width: 1200px) {
+      height: 50px;
+    }
+    @media (max-width: 767px) {
+      height: 40px;
+    }
+  }
+  &__menu {
+    max-width: 56%;
+    flex: 0 0 56%;
+    display: flex;
+    justify-content: center;
+    @media (max-width: 1920px) {
+      max-width: unset;
+      flex: unset;
+      //   width: 100%;
+    }
+    @media (max-width: 991px) {
+      order: 3;
+      width: 100%;
+      justify-content: flex-start;
+      //   padding: 31px 20px;
+      padding-bottom: 20px;
+      margin-top: -300%;
+      transition: margin 0.3s ease-in-out;
+      &.active {
+        margin-top: 0%;
+      }
+    }
+    @media (max-width: 767px) {
+      flex-direction: column;
+    }
+  }
+  &__buttons {
+    max-width: 22%;
+    flex: 0 0 22%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    @media (max-width: 1920px) {
+      max-width: unset;
+      flex: unset;
+      //   margin-left: auto;
+    }
+    @media (max-width: 991px) {
+      order: 2;
+      z-index: 1;
+    }
+    .mp-button {
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+  &__sm-contacts {
+    display: none;
+    flex-direction: column;
+    @media (max-width: 767px) {
+      display: flex;
+    }
+  }
+}
+.mp-social-networks {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  $mpSN: &;
+  &__link {
+    padding: 10px 15px;
+  }
+  &__icon {
+    height: 20px;
+    width: auto;
+  }
+  &_vk {
+    #{ $mpSN }__icon {
+      height: 15.5px;
+    }
+  }
+  &_yt {
+    #{ $mpSN }__icon {
+      height: 16px;
+    }
+  }
+  &_ig {
+    #{ $mpSN }__icon {
+    }
+  }
+}

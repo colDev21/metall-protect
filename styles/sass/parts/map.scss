@@ -1,0 +1,13 @@
+.mp-map {
+  &__iframe {
+    width: 100%;
+    height: 700px;
+    border: unset;
+    @media (max-width: 1400px) {
+      height: 400px;
+    }
+    @media (max-width: 767px) {
+      height: 276px;
+    }
+  }
+}

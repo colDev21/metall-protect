@@ -1,0 +1,6 @@
+{
+  "scripts": {
+    "sass": "sass --watch styles/sass/styles.scss:styles/css/styles.css --style compressed",
+    "prefix": "postcss styles/css/styles.css --use autoprefixer -d styles/css/"
+  }
+}

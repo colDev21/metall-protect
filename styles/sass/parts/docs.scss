@@ -1,0 +1,69 @@
+.mp-docs {
+  text-align: center;
+  &__container {
+    @include container;
+  }
+  &__wrapper {
+    padding: 120px 0;
+    @media (max-width: 767px) {
+      padding: 60px 0 10px;
+    }
+  }
+  &__title {
+    @include titleStyles;
+    color: $colorYellow;
+    margin-bottom: 30px;
+  }
+  &__subtitle {
+    @include titleCaptionStyles;
+    margin-bottom: 60px;
+  }
+}
+.mp-docs-list {
+  $mpDL: &;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  &__item {
+    margin: 0 50px;
+    @media (max-width: 767px) {
+      margin: 0 30px 50px;
+    }
+    &:hover {
+      #{ $mpDL }__icon-wrapper {
+        background-color: $colorOrange;
+      }
+    }
+  }
+  &__icon-wrapper {
+    height: 200px;
+    width: 200px;
+    background-color: $colorYellow;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+    transition: background-color 0.3s ease-in-out;
+    @media (max-width: 1600px) {
+      max-width: 160px;
+      height: 160px;
+      width: 160px;
+    }
+    @media (max-width: 767px) {
+      max-width: 120px;
+      height: 120px;
+      width: 120px;
+    }
+  }
+  &__icon {
+    height: 50px;
+    width: auto;
+  }
+  &__text {
+    font-size: 22px;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+}

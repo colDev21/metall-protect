@@ -1,0 +1,111 @@
+.mp-services {
+  background-color: $colorDark;
+  &__container {
+    @include container;
+  }
+  &__wrapper {
+    padding: 100px 67px 60px;
+    text-align: center;
+    @media (max-width: 767px) {
+      padding: 60px 0 20px;
+    }
+  }
+  &__title {
+    @include titleStyles;
+    color: $colorYellow;
+    margin-bottom: 30px;
+  }
+  &__subtitle {
+    @include titleCaptionStyles;
+    color: $colorLight;
+  }
+  &__list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    @media (max-width: 1800px) {
+      justify-content: center;
+    }
+  }
+}
+.mp-service {
+  $mpService: &;
+  margin: 0 33px 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 200px;
+  @media (max-width: 1800px) {
+    max-width: 170px;
+  }
+  @media (max-width: 1600px) {
+    max-width: 150px;
+  }
+  @media (max-width: 1500px) {
+    margin: 0 60px 80px;
+  }
+  @media (max-width: 1199px) {
+    margin: 0 33px 80px;
+  }
+  @media (max-width: 767px) {
+    max-width: 120px;
+  }
+  @media (max-width: 400px) {
+    &:nth-child(odd) {
+      margin: 0 16px 40px 0;
+    }
+    &:nth-child(even) {
+      margin: 0 0 40px 16px;
+    }
+  }
+  &:hover {
+    #{ $mpService }__icon-wrapper {
+      background-color: $colorOrange;
+    }
+  }
+  &__icon-wrapper {
+    background-color: $colorYellow;
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+    transition: background-color 0.3s ease-in-out;
+    @media (max-width: 1600px) {
+      height: 160px;
+      width: 160px;
+    }
+    @media (max-width: 767px) {
+      height: 120px;
+      width: 120px;
+      margin-bottom: 22px;
+    }
+  }
+  &__icon {
+    height: 73px;
+    width: auto;
+    @media (max-width: 767px) {
+      height: 43px;
+    }
+  }
+  &__title {
+    font-size: 22px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: $colorLight;
+    width: 220px;
+    @media (max-width: 1920px) {
+      font-size: 20px;
+    }
+    @media (max-width: 1800px) {
+      width: 200px;
+    }
+    @media (max-width: 767px) {
+      width: auto;
+      font-size: 14px;
+      min-width: 140px;
+    }
+  }
+}
