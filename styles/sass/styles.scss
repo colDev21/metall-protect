@@ -4,6 +4,7 @@
 @import "mixins.scss";
 @import "components/button.scss";
 @import "components/menu.scss";
+@import "components/radio.scss";
 @import "parts/header.scss";
 @import "parts/masthead.scss";
 @import "parts/about.scss";
@@ -14,6 +15,7 @@
 @import "parts/feedback.scss";
 @import "parts/map.scss";
 @import "parts/footer.scss";
+@import "parts/calculator.scss";
 body {
   font-family: "Commissioner", sans-serif;
   min-width: 320px;

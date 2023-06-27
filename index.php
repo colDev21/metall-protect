@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
+    <?php $assetVersion = '1.0'; ?>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="library/swiper/swiper-bundle.min.css" />
-    <link rel="stylesheet" type="text/css" href="styles/css/styles.css?v=1.0" />
-    <link rel="stylesheet" type="text/css" href="styles/css/custom.css" />
+    <link rel="stylesheet" type="text/css" href="styles/css/styles.css?v=<?php echo $assetVersion; ?>" />
+    <link rel="stylesheet" type="text/css" href="styles/css/custom.css?v=<?php echo $assetVersion; ?>" />
     <script src="https://api-maps.yandex.ru/2.1/?apikey=ad2a15e6-7ec7-43a9-b823-c3140a653977&lang=ru_RU" type="text/javascript">
     </script>
     <link rel="icon" href="/favicon.ico">
@@ -25,11 +26,12 @@
             include('components/feedback.php');
             include('components/map.php');
             include('components/footer.php');
+            include('components/calculator.php');
         ?>
     </main>
     <script type="text/javascript" src="library/swiper/swiper-bundle.min.js"></script>
-    <script type="text/javascript" src="scripts/common.js"></script>
-    <script type="text/javascript" src="scripts/parts/masthead.js"></script>
-    <script type="text/javascript" src="scripts/parts/map.js"></script>
+    <script type="text/javascript" src="scripts/common.js?v=<?php echo $assetVersion; ?>"></script>
+    <script type="text/javascript" src="scripts/parts/masthead.js?v=<?php echo $assetVersion; ?>"></script>
+    <script type="text/javascript" src="scripts/parts/map.js?v=<?php echo $assetVersion; ?>"></script>
 </body>
 </html>

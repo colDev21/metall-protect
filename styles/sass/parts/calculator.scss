@@ -1,0 +1,26 @@
+.mp-calculator {
+  position: fixed;
+  top: 178px;
+  right: 60px;
+  bottom: auto;
+  left: auto;
+  z-index: 1;
+  &__modal {
+    background-color: $colorLight;
+    padding: 12px;
+    border-radius: 25px;
+    width: 290px;
+  }
+  &__header {
+  }
+  &__title {
+  }
+  &__close {
+  }
+  &__body {
+  }
+  &__section {
+  }
+  &__footer {
+  }
+}
