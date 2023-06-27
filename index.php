@@ -26,7 +26,7 @@
             include('components/feedback.php');
             include('components/map.php');
             include('components/footer.php');
-            include('components/calculator.php');
+            // include('components/calculator.php');
         ?>
     </main>
     <script type="text/javascript" src="library/swiper/swiper-bundle.min.js"></script>
