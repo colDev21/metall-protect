@@ -1,4 +1,5 @@
 .mp-map {
+  $mpMap: &;
   &__iframe {
     width: 100%;
     height: 700px;
@@ -8,6 +9,19 @@
     }
     @media (max-width: 767px) {
       height: 276px;
+    }
+  }
+  &_contacts {
+    #{ $mpMap }__container {
+      @include container;
+    }
+    #{ $mpMap }__wrapper {
+      padding: 110px 60px 120px;
+    }
+    #{ $mpMap }__iframe {
+      border-radius: 40px;
+      overflow: hidden;
+      height: 793px;
     }
   }
 }

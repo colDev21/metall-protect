@@ -14,25 +14,19 @@
 </head>
 <body>
     <?php
-        $page = 'home';
-        include('components/header.php')
-?>
+        $page = 'contacts';
+        $pageTitle = 'Контакты';
+        include('components/header.php');
+    ?>
     <main>
         <?php
-            include('components/masthead.php');
-            include('components/about.php');
-            include('components/services.php');
-            include('components/products.php');
-            include('components/projects.php');
-            include('components/docs.php');
-            include('components/feedback.php');
+            include('components/pagehead.php');
             include('components/map.php');
             include('components/footer.php');
         ?>
     </main>
     <script type="text/javascript" src="library/swiper/swiper-bundle.min.js"></script>
     <script type="text/javascript" src="scripts/common.js?v=<?php echo $assetVersion; ?>"></script>
-    <script type="text/javascript" src="scripts/parts/masthead.js?v=<?php echo $assetVersion; ?>"></script>
     <script type="text/javascript" src="scripts/parts/map.js?v=<?php echo $assetVersion; ?>"></script>
     <script type="text/javascript" src="scripts/parts/calculator.js?v=<?php echo $assetVersion; ?>"></script>
 </body>

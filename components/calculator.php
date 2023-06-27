@@ -1,4 +1,4 @@
-<section class="mp-calculator" id="mpCalculator">
+<section class="mp-calculator <?php if($page !== 'home'): echo 'hide'; endif; ?>" id="mpCalculator">
     <div class="mp-calculator__modal">
         <div class="mp-calculator__header">
             <div class="mp-calculator__title">Расчет стоимости проекта</div>

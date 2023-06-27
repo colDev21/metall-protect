@@ -1,0 +1,49 @@
+.mp-page-head {
+  position: relative;
+  background-image: url("../../assets/img/masthead.jpg");
+  background-size: cover;
+  background-position: center;
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(#041620, 70%);
+  }
+  &__container {
+    @include container;
+  }
+  &__wrapper {
+    position: relative;
+    text-align: center;
+    padding: 88px 0 48px;
+    z-index: 1;
+  }
+  &__title {
+    @include titleStyles;
+    color: $colorYellow;
+    margin-bottom: 24px;
+  }
+}
+.mp-breadcrumbs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: $colorLight;
+  font-size: 18px;
+  &__item {
+    display: flex;
+    align-items: center;
+  }
+  &__link {
+  }
+  &__seperator {
+    margin: 0 4px;
+  }
+  &__name {
+  }
+}
