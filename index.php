@@ -26,12 +26,12 @@
             include('components/feedback.php');
             include('components/map.php');
             include('components/footer.php');
-            // include('components/calculator.php');
         ?>
     </main>
     <script type="text/javascript" src="library/swiper/swiper-bundle.min.js"></script>
     <script type="text/javascript" src="scripts/common.js?v=<?php echo $assetVersion; ?>"></script>
     <script type="text/javascript" src="scripts/parts/masthead.js?v=<?php echo $assetVersion; ?>"></script>
     <script type="text/javascript" src="scripts/parts/map.js?v=<?php echo $assetVersion; ?>"></script>
+    <script type="text/javascript" src="scripts/parts/calculator.js?v=<?php echo $assetVersion; ?>"></script>
 </body>
 </html>

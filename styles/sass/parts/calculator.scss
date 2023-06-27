@@ -1,26 +1,120 @@
 .mp-calculator {
-  position: fixed;
+  position: absolute;
   top: 178px;
   right: 60px;
   bottom: auto;
   left: auto;
-  z-index: 1;
+  z-index: 99;
+  &.hide {
+    display: none;
+  }
+  @media (max-width: 767px) {
+    // position: fixed;
+    height: 1000px;
+    width: 100%;
+    top: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    z-index: 999;
+    background-color: rgba($colorDark, 0.8);
+  }
   &__modal {
     background-color: $colorLight;
-    padding: 12px;
     border-radius: 25px;
     width: 290px;
+    @media (max-width: 767px) {
+      margin: auto;
+      margin-top: 12px;
+    }
   }
   &__header {
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 12px 12px 0;
   }
   &__title {
+    font-size: 18px;
+    font-weight: 600;
   }
   &__close {
+    margin-left: auto;
+  }
+  &__close-icon {
+    height: 20px;
+    width: auto;
   }
   &__body {
+    padding: 6px 12px 10px;
   }
   &__section {
+    padding: 7px 0 0;
+    border-bottom: 2px solid $colorGrayLighter;
   }
   &__footer {
+    .mp-button {
+      width: 100%;
+      margin: 0;
+      justify-content: center;
+      height: 47px;
+    }
   }
+  &__param {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+    font-weight: 500;
+    color: $colorGrayLight;
+    margin-bottom: 8px;
+    &.active {
+      color: $colorGray;
+    }
+  }
+  &__total {
+    // padding-top: 8px;
+  }
+  &__total-note {
+    color: $colorGrayLight;
+    font-size: 9px;
+    line-height: 1;
+  }
+  &__amount {
+    font-size: 26px;
+    font-weight: 600;
+    color: $colorYellow;
+  }
+  &__nds-icon {
+    height: 20px;
+    width: auto;
+    margin-right: 8px;
+  }
+  &__nds {
+    color: $colorGray;
+    display: flex;
+    align-items: center;
+  }
+}
+.mp-input {
+  height: 18px;
+  width: 52px;
+  background-color: $colorGrayLight2;
+  border-radius: 40px;
+  text-align: center;
+  color: $colorLight;
+  font-size: 13px;
+  outline: none;
+  &.active {
+    background-color: $colorYellow;
+  }
+  &::placeholder {
+    color: $colorLight;
+  }
+}
+.no-border {
+  border: unset;
+}
+.mb-0 {
+  margin-bottom: 0;
 }

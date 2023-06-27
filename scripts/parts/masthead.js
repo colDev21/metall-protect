@@ -5,7 +5,7 @@ var swiper = new Swiper("#mastheadSwiper", {
     clickable: true,
   },
   autoplay: {
-    delay: 5000,
+    delay: 7500,
     disableOnInteraction: true,
   },
   speed: 1500,

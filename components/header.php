@@ -28,7 +28,7 @@
             <a class="mp-button mp-button_email mp-button_orange mp-button_icon-only" href="mailto:">
                 <img class="mp-button__icon" src="./assets/icons/icon-envelope.svg" alt="icon-envelope">
             </a>
-            <button class="mp-button mp-button_calc mp-button_red mp-button_icon-only" href="mailto:">
+            <button class="mp-button mp-button_calc mp-button_red mp-button_icon-only" id="mpModalOpen">
                 <img class="mp-button__icon" src="./assets/icons/icon-calculator.svg" alt="icon-calculator">
             </button>
             <button class="mp-mobile-menu-toggler" id="mpMenuToggler">
@@ -37,3 +37,4 @@
         </div>
     </div>
 </header>
+<?php include('calculator.php'); ?>
