@@ -17,7 +17,7 @@ function init() {
           [0, 0],
           [80, 105],
         ],
-        iconImageHref: "./assets/img/map-label-sm.png",
+        iconImageHref: "./assets/img/map-label-sm.png?v=1.1",
         iconImageSize: [80, 105],
         iconImageOffset: [-15, -27],
       }
