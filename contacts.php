@@ -21,7 +21,7 @@
     <main>
         <?php
             include('components/pagehead.php');
-            include('components/map.php');
+            include('components/page-contacts.php');
             include('components/footer.php');
         ?>
     </main>

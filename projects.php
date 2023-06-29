@@ -20,12 +20,13 @@
     <main>
         <?php
             include('components/pagehead.php');
-            include('components/feedback.php');
+            include('components/page-projects.php');
             include('components/footer.php');
         ?>
     </main>
     <script type="text/javascript" src="library/swiper/swiper-bundle.min.js"></script>
     <script type="text/javascript" src="scripts/common.js?v=<?php echo $assetVersion; ?>"></script>
     <script type="text/javascript" src="scripts/parts/calculator.js?v=<?php echo $assetVersion; ?>"></script>
+    <script type="text/javascript" src="scripts/parts/projects-grid.js?v=<?php echo $assetVersion; ?>"></script>
 </body>
 </html>

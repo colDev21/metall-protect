@@ -12,16 +12,23 @@
     }
   }
   &_contacts {
-    #{ $mpMap }__container {
-      @include container;
-    }
-    #{ $mpMap }__wrapper {
-      padding: 110px 60px 120px;
-    }
+    // #{ $mpMap }__container {
+    //   @include container;
+    // }
+    // #{ $mpMap }__wrapper {
+    //   padding: 110px 60px 120px;
+    //   @media (max-width: 991px) {
+    //     padding: 60px;
+    //   }
+    // }
     #{ $mpMap }__iframe {
       border-radius: 40px;
       overflow: hidden;
       height: 793px;
+      @media (max-width: 767px) {
+        height: 290px;
+        border-radius: 20px;
+      }
     }
   }
 }

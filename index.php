@@ -23,7 +23,7 @@
             include('components/about.php');
             include('components/services.php');
             include('components/products.php');
-            include('components/projects.php');
+            include('components/home-projects.php');
             include('components/docs.php');
             include('components/feedback.php');
             include('components/map.php');
