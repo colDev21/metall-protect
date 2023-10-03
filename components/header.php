@@ -1,8 +1,8 @@
 <header class="site-header">
     <div class="mp-header" id="mpHeader">
-        <div class="mp-header__logo">
+        <a href="/" class="mp-header__logo">
             <img class="mp-header__logo-image" src="./assets/img/logo.png" alt="site-logo">
-        </div>
+        </a>
         <nav class="mp-header__menu" id="mpMenu">
             <?php include('parts/headerMenu.php') ?>
             <div class="mp-header__sm-contacts">

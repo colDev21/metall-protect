@@ -8,9 +8,11 @@
             "gidrostruy" => array("title" => "Гидроструй", "url" => "#!"),
             "vysotnie_raboty" => array("title" => "Высотные работы", "url" => "#!"),
         )),
-        "projects" => array("title" => "Проекты", "url" => "#!", "submenus" => array()),
+        "projects" => array("title" => "Проекты", "url" => "./projects.php", "submenus" => array()),
         "faq" => array("title" => "Вопрос-ответ", "url" => "#!", "submenus" => array()),
-        "contacts" => array("title" => "Контакты", "url" => "#!", "submenus" => array()),
+        "blog" => array("title" => "Блог", "url" => "./blog.php", "submenus" => array()),
+        "prices" => array("title" => "Цены", "url" => "#!", "submenus" => array()),
+        "contacts" => array("title" => "Контакты", "url" => "./contacts.php", "submenus" => array()),
     )
 ?>
 <ul class="mp-header-menu">
