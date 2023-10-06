@@ -17,7 +17,7 @@
                     <?php foreach ($stps as $key => $stp) : ?>
                         <div class="stp-list__item">
                             <div class="stp-list__icon-wrapper">
-                                <img src="<?php echo $stp["iconUrl"]; ?>" alt="<?php echo $stp["alt"]; ?>" class="stp-list__icon">
+                                <img class="stp-list__icon" src="<?php echo $stp["iconUrl"]; ?>" alt="<?php echo $stp["alt"]; ?>" class="stp-list__icon">
                             </div>
                             <span class="stp-list__text"><?php echo $stp["text"]; ?></span>
                         </div>

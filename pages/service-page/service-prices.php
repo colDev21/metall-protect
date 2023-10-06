@@ -8,28 +8,32 @@
                         <span>Цены на огнезащитное покрытие металлоконструкций</span>
                     </div>
                     <div class="sp-table__row">
-                        <div class="sp-table__col">
-                            <div class="sp-table__col-title">Предел огнестойкости, R минут</div>
-                            <div class="sp-table__col-data">
-                                <div class="sp-table__data">R15/R30</div>
-                                <div class="sp-table__data">R45</div>
-                                <div class="sp-table__data">R60</div>
-                                <div class="sp-table__data">R90</div>
-                                <div class="sp-table__data">R120</div>
-                                <div class="sp-table__data">R150</div>
-                            </div>
-                        </div>
-                        <div class="sp-table__col">
-                            <div class="sp-table__col-title">Стоимость обработки с учётом материалов, вкл. НДС 20%</div>
-                            <div class="sp-table__col-data">
-                                <div class="sp-table__data">от 400 руб./м² атмосферостойкой</div>
-                                <div class="sp-table__data">от 500 руб./м² краской на водной основе</div>
-                                <div class="sp-table__data">от 700 руб./м² краской на водной основе</div>
-                                <div class="sp-table__data">от 850 руб./м² тонкослойными красками</div>
-                                <div class="sp-table__data">от 900 руб./м²</div>
-                                <div class="sp-table__data">от 1300 руб./м²</div>
-                            </div>
-                        </div>
+                        <div class="sp-table__col-title">Предел огнестойкости, R минут</div>
+                        <div class="sp-table__col-title">Стоимость обработки с учётом материалов, вкл. НДС 20%</div>
+                    </div>
+                    <div class="sp-table__row">
+                        <div class="sp-table__col">R15/R30</div>
+                        <div class="sp-table__col">от 400 руб./м² атмосферостойкой</div>
+                    </div>
+                    <div class="sp-table__row">
+                        <div class="sp-table__col">R45</div>
+                        <div class="sp-table__col">от 500 руб./м² краской на водной основе</div>
+                    </div>
+                    <div class="sp-table__row">
+                        <div class="sp-table__col">R60</div>
+                        <div class="sp-table__col">от 700 руб./м² краской на водной основе</div>
+                    </div>
+                    <div class="sp-table__row">
+                        <div class="sp-table__col">R90</div>
+                        <div class="sp-table__col">от 850 руб./м² тонкослойными красками</div>
+                    </div>
+                    <div class="sp-table__row">
+                        <div class="sp-table__col">R120</div>
+                        <div class="sp-table__col">от 900 руб./м²</div>
+                    </div>
+                    <div class="sp-table__row">
+                        <div class="sp-table__col">R150</div>
+                        <div class="sp-table__col">от 1300 руб./м²</div>
                     </div>
                 </div>
             </div>

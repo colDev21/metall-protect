@@ -24,9 +24,12 @@
 @import "pages/service-page.scss";
 body {
   font-family: "Commissioner", sans-serif;
-  min-width: 320px;
+  min-width: 375px;
   color: $colorDark;
   background-color: $colorLight;
+}
+main {
+  overflow: hidden;
 }
 b {
   font-weight: 600;

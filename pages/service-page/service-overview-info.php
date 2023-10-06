@@ -40,11 +40,11 @@
     </div>
     <p class="overview-info__text mb-0">Специалисты компании Металл Проект могут окрасить металлические конструкции любой сложности, включая проведение работ на высоте. Нами выполняется покраска эмалью металлоконструкций, а также нанесение других видов материалов на поверхности из металла. При необходимости выполняем огнезащиту и гидроизоляцию металлоконструкций.</p>
     <div class="custom-highlight">
-        <div class="custom-highlight__wrapper">
+        <div class="custom-highlight__col">
             <span class="custom-highlight__title">Более</span>
             <span class="custom-highlight__text">10 лет в сфере</span>
         </div>
-        <div class="custom-highlight__wrapper">
+        <div class="custom-highlight__col">
             <span class="custom-highlight__title">Мы обладаем необходимыми:</span>
             <ul class="custom-highlight__list">
                 <li class="custom-highlight__list-item">
